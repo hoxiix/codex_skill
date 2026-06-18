@@ -1,1 +1,28 @@
 
+name: PR Codebase Recon
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Git Hotspots
+        run: |
+          echo "Top changed files:"
+          git log --name-only --pretty="" | sort | uniq -c | sort -nr | head -20
+
+      - name: Recent commits
+        run: git log --oneline -n 30
+
+      - name: Repo structure
+        run: find. -type d | head -200
