@@ -10,3 +10,12 @@
 *.png binary
 *.gif binary
 *.webp binary
+*.exe binary
+
+skills/impeccable/scripts/impeccable text eol=lf
+skills/impeccable/scripts/*.js text eol=lf
+skills/impeccable/scripts/*.json text eol=lf
+skills/impeccable/scripts/data/*.json text eol=lf
+skills/impeccable/agents/*.toml text eol=lf
+skills/impeccable/agents/*.yaml text eol=lf
+skills/impeccable/scripts/*.cmd text eol=crlf

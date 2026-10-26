@@ -1,6 +1,6 @@
 # Codex Skills
 
-这里保存 2026-10-25 本机在用的 Codex 技能，包含完整的 `SKILL.md`、参考资料和脚本，方便备份、审阅和复用。
+这里保存 2026-10-26 本机在用的 22 个 Codex 技能，包含完整的 `SKILL.md`、参考资料和脚本，方便备份、审阅和复用。
 
 ## 安装
 
@@ -27,6 +27,7 @@ npx skills add hoxiix/automatic-octo-adventure --skill springboot-patterns -g -a
 | [electron](skills/electron/SKILL.md) | Electron 主进程、IPC、安全和打包 |
 | [frontend-ui-engineering](skills/frontend-ui-engineering/SKILL.md) | 前端界面工程、响应式布局和无障碍 |
 | [hallmark](skills/hallmark/SKILL.md) | 新网站和新页面的视觉设计 |
+| [impeccable](skills/impeccable/SKILL.md) | 全流程前端设计、审计、打磨、设计系统和原生界面 |
 | [java-coding-standards](skills/java-coding-standards/SKILL.md) | Java 命名、不可变对象、异常和依赖注入规范 |
 | [jpa-patterns](skills/jpa-patterns/SKILL.md) | JPA/Hibernate 实体、关系、事务和 N+1 处理 |
 | [memory-compact](skills/memory-compact/SKILL.md) | 审查、合并和压缩长期记忆 |
@@ -48,5 +49,6 @@ npx skills add hoxiix/automatic-octo-adventure --skill springboot-patterns -g -a
 
 - 这些技能来自公开仓库，许可和出处见 [SOURCES.md](SOURCES.md)。
 - `session-memory` 是为本机工作流编写的本地技能。
+- `impeccable` 的引擎二进制不纳入仓库，首次运行时会按平台自动下载；仓库只保留可审阅的 skill、参考文档和脚本。
 - 已移除的英文版 `humanizer` 和旧版 `pdf` 副本没有收录；PDF 使用 Codex 插件自带的新版。
 - 技能会以当前 Agent 权限运行，安装前请先阅读对应的 `SKILL.md` 和脚本。

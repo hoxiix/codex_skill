@@ -1,6 +1,6 @@
 # 来源与许可
 
-导出日期：2026-10-25
+导出日期：2026-10-26
 
 | 技能 | 上游仓库 | 许可 |
 |---|---|---|
@@ -11,6 +11,7 @@
 | `performance-optimization` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | MIT |
 | `security-and-hardening` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | MIT |
 | `hallmark` | [nutlope/hallmark](https://github.com/nutlope/hallmark) | MIT |
+| `impeccable` | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Apache-2.0 |
 | `planning-with-files` | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | MIT |
 | `uni-app` | [uni-helper/skills](https://github.com/uni-helper/skills) | MIT |
 | `electron` | [hairyf/skills](https://github.com/hairyf/skills) | MIT |
@@ -26,4 +27,4 @@
 | `mysql` | [planetscale/database-skills](https://github.com/planetscale/database-skills) | MIT |
 | `session-memory` | 本地编写 | 随本仓库使用 |
 
-`hallmark` 和 `writing-humanizer-zh` 的 `LICENSE` 文件已随技能目录保存。其他技能如需再分发，请同时保留上游仓库的版权和许可声明。
+`hallmark`、`writing-humanizer-zh` 和 `impeccable` 的许可文件已随技能目录保存；`impeccable` 另保留了上游的 `NOTICE.md`。其他技能如需再分发，请同时保留上游仓库的版权和许可声明。
