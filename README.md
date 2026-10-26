@@ -7,13 +7,13 @@
 需要 Node.js。安装全部技能：
 
 ```bash
-npx skills add hoxiix/automatic-octo-adventure -g -a codex
+npx skills add hoxiix/codex_skill -g -a codex
 ```
 
 只安装一个技能：
 
 ```bash
-npx skills add hoxiix/automatic-octo-adventure --skill springboot-patterns -g -a codex
+npx skills add hoxiix/codex_skill --skill springboot-patterns -g -a codex
 ```
 
 也可以把 `skills/<技能名>` 整个目录复制到 `~/.agents/skills/`。
