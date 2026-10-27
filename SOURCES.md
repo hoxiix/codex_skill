@@ -1,6 +1,6 @@
 # 来源与许可
 
-导出日期：2026-10-26
+导出日期：2026-10-27
 
 | 技能 | 上游仓库 | 许可 |
 |---|---|---|
@@ -15,6 +15,7 @@
 | `planning-with-files` | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | MIT |
 | `uni-app` | [uni-helper/skills](https://github.com/uni-helper/skills) | MIT |
 | `electron` | [hairyf/skills](https://github.com/hairyf/skills) | MIT |
+| `find-skills` | [vercel-labs/skills](https://github.com/vercel-labs/skills) | MIT |
 | `uniapp-x` | [hairyf/skills](https://github.com/hairyf/skills) | MIT |
 | `writing-humanizer-zh` | [hairyf/skills](https://github.com/hairyf/skills) | MIT |
 | `wechat-miniprogram` | [whinc/super-skills](https://github.com/whinc/super-skills) | MIT |
@@ -27,4 +28,4 @@
 | `mysql` | [planetscale/database-skills](https://github.com/planetscale/database-skills) | MIT |
 | `session-memory` | 本地编写 | 随本仓库使用 |
 
-`hallmark`、`writing-humanizer-zh` 和 `impeccable` 的许可文件已随技能目录保存；`impeccable` 另保留了上游的 `NOTICE.md`。其他技能如需再分发，请同时保留上游仓库的版权和许可声明。
+`find-skills`、`hallmark`、`writing-humanizer-zh` 和 `impeccable` 的许可文件已随技能目录保存；`impeccable` 另保留了上游的 `NOTICE.md`。其他技能如需再分发，请同时保留上游仓库的版权和许可声明。
